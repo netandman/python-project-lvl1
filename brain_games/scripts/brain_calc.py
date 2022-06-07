@@ -7,6 +7,7 @@ from brain_games.games.calculation_game import calc
 def main():
     attempts = 0
     user_name = greeting_user()
+    print('What is the result of the expression')
     while attempts < 3:
         result_calc = calc()
         answer = ask_user(user_name, result_calc)
