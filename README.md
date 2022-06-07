@@ -10,3 +10,5 @@ Demonstration of the brain-even game: https://asciinema.org/a/JtUL7YfNnQp3ajCXIn
 Demonstration of the brain-calc game: https://asciinema.org/a/YRtWHDzo8eTEMOHhTrZVgYmiB
 
 Demonstration of the brain-gcd game: https://asciinema.org/a/EUNnDGkxeWbrsm87YB8rliZoZ
+
+Demonstration of the brain-progression game: https://asciinema.org/a/NjOQWM3cz3O9SatMn2qHgHh40
