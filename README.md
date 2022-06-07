@@ -8,3 +8,5 @@
 Demonstration of the brain-even game: https://asciinema.org/a/JtUL7YfNnQp3ajCXInopi1aas
 
 Demonstration of the brain-calc game: https://asciinema.org/a/YRtWHDzo8eTEMOHhTrZVgYmiB
+
+Demonstration of the brain-gcd game: https://asciinema.org/a/EUNnDGkxeWbrsm87YB8rliZoZ
