@@ -15,7 +15,7 @@ def main():
         if answer:
             break
     else:
-        print(f'Congratulation, {user_name}!')
+        print(f'Congratulations, {user_name}!')
 
 
 if __name__ == '__main__':
