@@ -11,26 +11,27 @@ def greeting_user():
 
 
 def ask_user(name, result):
+    y = 1
+    n = 0
     answer = prompt.string('Your answer: ')
     if answer == 'yes':
         answer = 1
         y = 'yes'
+        n = 'no'
     if answer == 'no':
         answer = 0
+        y = 'yes'
         n = 'no'
-    if result == int(answer):
+    if y == 'yes' or n == 'no':
+        if result == int(answer):
+            print('Correct!')
+        else:
+            print(f'{answer} is wrong answer ;(. Correct answer was {result}')
+            print(f"Let's try again, {name}")
+            return 1
+    elif result == int(answer):
         print('Correct!')
     else:
-        if y:
-            n = 'no'
-            print(f'{y} is wrong answer ;(. Correct answer was {n}')
-            print(f"Let's try again, {name}")
-            return 1
-        elif n:
-            y = 'yes'
-            print(f'{n} is wrong answer ;(. Correct answer was {y}')
-            print(f"Let's try again, {name}")
-            return 1
         print(f'{answer} is wrong answer ;(. Correct answer was {result}')
         print(f"Let's try again, {name}")
         return 1
