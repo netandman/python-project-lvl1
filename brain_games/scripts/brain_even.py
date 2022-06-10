@@ -25,6 +25,7 @@ def main():
                 attempts += 1
             else:
                 print(f'{answer} is wrong answer ;(. Correct answer was "no".')
+                print(f"Let's try again, {user}!")
                 break
         elif number % 2 != 0:
             if answer == 'no':
@@ -32,6 +33,7 @@ def main():
                 attempts += 1
             else:
                 print(f'{answer} is wrong answer ;(. Correct answer was "yes".')
+                print(f"Let's try again, {user}!")
                 break
     else:
         print(f'Congratulations, {user}!')
