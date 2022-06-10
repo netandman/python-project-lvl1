@@ -12,3 +12,5 @@ Demonstration of the brain-calc game: https://asciinema.org/a/YRtWHDzo8eTEMOHhTr
 Demonstration of the brain-gcd game: https://asciinema.org/a/EUNnDGkxeWbrsm87YB8rliZoZ
 
 Demonstration of the brain-progression game: https://asciinema.org/a/NjOQWM3cz3O9SatMn2qHgHh40
+
+Demonstration of the brain-prime game: https://asciinema.org/a/mrobidVHXtmW4JhhMbRGQYNVI
