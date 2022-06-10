@@ -34,7 +34,7 @@ def main():
                 print(f'{answer} is wrong answer ;(. Correct answer was "yes".')
                 break
     else:
-        print(f'Congratulation, {user}!')
+        print(f'Congratulations, {user}!')
     return
 
 
