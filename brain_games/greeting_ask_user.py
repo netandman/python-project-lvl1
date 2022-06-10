@@ -27,13 +27,13 @@ def ask_user(name, result):
             print('Correct!')
         else:
             print(f'{answer} is wrong answer ;(. Correct answer was {result}')
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             return 1
     elif result == int(answer):
         print('Correct!')
     else:
         print(f'{answer} is wrong answer ;(. Correct answer was {result}')
-        print(f"Let's try again, {name}")
+        print(f"Let's try again, {name}!")
         return 1
 
 
